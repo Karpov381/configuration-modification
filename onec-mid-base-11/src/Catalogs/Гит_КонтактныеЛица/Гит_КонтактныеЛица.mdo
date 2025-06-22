@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Гит_КонтактныеЛица.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="16843fe9-2b0e-414d-8e0a-c2feb99f7483">
     <name>КонтактныйТелефон</name>
     <synonym>
@@ -99,4 +100,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="f8ef0d50-4b8f-447f-b6b2-049b4fc3e967">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
